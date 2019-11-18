@@ -8,32 +8,54 @@ html {
   box-sizing: inherit;
 }
 
-.header {
+body {
+  margin: 0;
+}
+
+header {
   background-color: #d05c2e;
-  max-width:
 }
 
 h1 {
   color: #fff;
   text-align: center;
   font-size: 2rem;
-  max-width: 100%;
+  margin: 0;
+  padding: .5em 0;
 }
 
-.nav {
-  color: #fff;
-  text-decoration: none;
-  text-align: center;
-  list-style-type: none;
-  font-size: 1.125rem;
-  padding: 0;
-  margin: 0;
+.grains {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  margin: .5em 0;
 }
 
 .nav li {
-  display: inline-block;
-  border: solid #a63f38;
-  padding: .5em 0;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #a63f38;
+  width: 33.33%;
+}
+
+ul {
+  display: flex;
   margin: 0;
-  width: 30%;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+a:hover {
+  background-color: #a63f38;
 }

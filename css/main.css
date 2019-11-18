@@ -1,8 +1,39 @@
 html {
   box-sizing: border-box;
   font-family: Merriweather, serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.header {
+  background-color: #d05c2e;
+  max-width:
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  max-width: 100%;
+}
+
+.nav {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  list-style-type: none;
+  font-size: 1.125rem;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  display: inline-block;
+  border: solid #a63f38;
+  padding: .5em 0;
+  margin: 0;
+  width: 30%;
 }
